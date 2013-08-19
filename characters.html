@@ -1,0 +1,84 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="characters">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html" class="ui-btn-active ui-state-persist">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Characters</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more characters needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Robinson Crusoe</li>
+					<li data-theme="d">The narrator and protagonist of the novel</li>
+					<li data-theme="c">Middle class young man growing up in New York trying to figure out his life, he's urged to be in law by his father yet has dreams of a life as a merchant at sea</li>
+					<li data-theme="d">He has to fight himself and his guilt for not obeying his fathers will</li>
+					<li data-theme="c">A very steady man when it comes to doing things and his work is done in a plodding sort of way</li>
+					<li data-theme="d">He has a lot of perseverance which helps him survive the stories adventures</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Friday</li>
+					<li data-theme="d">A young Caribbean man who is also cannibalistic</li>
+					<li data-theme="c">Crusoe converts him to Protestantism</li>
+					<li data-theme="d">Becomes a servant for Crusoe after his life is saved from being eaten by other cannibals</li>
+					<li data-theme="c">He does not resent being Crusoe's servant after being saved, and he has a charisma that contrasts with Crusoe's rather bland character</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The Portuguese Captain</li>
+					<li data-theme="d">Sea captain who rescues Crusoe and Xury after they escape from captors</li>
+					<li data-theme="c">He takes Crusoe to Brazil where Crusoe becomes a plantation owner</li>
+					<li data-theme="d">Polite, and very personable, but somewhat lacking of charisma</li>
+					<li data-theme="c">A good man, he helps Crusoe by paying him far to much for a slave and animal skins, as well as helping take care of his Brazilian investments</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The Spaniard</li>
+					<li data-theme="d">A crewman on a Spanish ship that is wrecked off Crusoe's Island</li>
+					<li data-theme="c">He is originally destined to be eaten by the Cannibals who rescue him, however Crusoe saves him by making him a “subject” in his “kingdom”</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Xury</li>
+					<li data-theme="d">He is a slave boy who is briefly enslaved with Crusoe in Sallee</li>
+					<li data-theme="c">Crusoe seems to developed a trust for him, however when they are both rescued by The Captain, Crusoe sells Xury for a rather large sum</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The Widow</li>
+					<li data-theme="d">She appears at two points in the novel</li>
+					<li data-theme="c">Crusoe leaves 200 pounds with her in England, and she keeps watch, returning it to him after his 35 year absence</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Robinson Crusoe</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
